@@ -25,12 +25,12 @@ const onSubmit = () => {
 <template>
   <q-dialog ref="dialogRef" @hide="onDialogHide">
     <q-card class="q-dialog-plugin q-gutter-md" style="width: 700px; max-width: 80vw;">
-      <h4>How many bales were made?</h4>
+      <h4>How many bales were used?</h4>
       <div class="q-pa-md">
       <q-slider
         v-model="baleCount"
         :min="0"
-        :max="500"
+        :max="20"
         :step="1"
         snap
         label
