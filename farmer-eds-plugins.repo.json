@@ -1,0 +1,10 @@
+{
+"plugins": [
+{
+"url": "https://raw.githubusercontent.com/Farmer-Eds-Shed/FarmOS-Asset-link-plugins/main/Bales/AddNewHayBalesToInventory.alink.vue"
+},
+{
+"url": "https://github.com/Farmer-Eds-Shed/FarmOS-Asset-link-plugins/blob/main/Bales/FeedHayBalesFromInventory.alink.vue"
+}
+]
+}
