@@ -5,6 +5,15 @@
 },
 {
 "url": "https://raw.githubusercontent.com/Farmer-Eds-Shed/FarmOS-Asset-link-plugins/main/Bales/FeedHayBalesFromInventory.alink.vue"
+},
+{
+"url": "https://raw.githubusercontent.com/Farmer-Eds-Shed/FarmOS-Asset-link-plugins/main/Animals/AnimalSearchMethodSlotProvider.alink.vue"
+},
+{
+"url": "https://raw.githubusercontent.com/Farmer-Eds-Shed/FarmOS-Asset-link-plugins/main/Animals/AnimalSearchToolbarSlotProvider.alink.vue"
+},
+{
+"url": "https://raw.githubusercontent.com/Farmer-Eds-Shed/FarmOS-Asset-link-plugins/main/Animals/NameBasedAnimalSearcher.alink.js"
 }
 ]
 }
