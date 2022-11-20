@@ -97,7 +97,7 @@ export default {
 
       action.showIf(({ asset }) => asset.attributes.status !== 'archived'
           // TODO: Implement a better predicate here...
-          && asset.attributes.name.toLowerCase().indexOf("Silage Bales") !== -1);
+          && asset.attributes.name.toLowerCase().indexOf("silage bales") !== -1);
 
       const doActionWorkflow = async (asset) => {
         const baleCount = await assetLink.ui.dialog.custom(handle.thisPlugin, { asset });
