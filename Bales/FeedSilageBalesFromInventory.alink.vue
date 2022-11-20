@@ -59,7 +59,7 @@ import { h } from 'vue';
 import { QBtn } from 'quasar';
 import { formatRFC3339, summarizeAssetNames, uuidv4 } from "assetlink-plugin-api";
 
-const UNIT_NAME = "bale(s)";
+const UNIT_NAME = "Bales";
 
 export default {
   async onLoad(handle, assetLink) {
@@ -137,7 +137,7 @@ export default {
         const harvestLog = {
           type: 'log--harvest',
           attributes: {
-            name: `Fed ${baleCount} bale(s)`,
+            name: `Fed ${baleCount} Bales`,
             timestamp: formatRFC3339(new Date()),
             status: "done",
           },
